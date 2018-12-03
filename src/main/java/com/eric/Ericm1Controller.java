@@ -6,32 +6,18 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController
 
+class
 
-
-
-class 
-	
-	
-	
-	
-	
-	Ericm1Controller
-
-
+Ericm1Controller
 
 {
 
 	@GetMapping("/hello/{name}"
-		   
-		   
-		   
-		   
-		   )
-	public String person(@PathVariable String 
-			     
-			     
-			     
-			     name) {
+
+	)
+	public String person(@PathVariable String
+
+	name) {
 		return "Hello " + name + "!";
 	}
 
