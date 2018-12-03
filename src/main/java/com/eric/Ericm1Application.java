@@ -9,4 +9,5 @@ public class Ericm1Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Ericm1Application.class, args);
 	}
+
 }
